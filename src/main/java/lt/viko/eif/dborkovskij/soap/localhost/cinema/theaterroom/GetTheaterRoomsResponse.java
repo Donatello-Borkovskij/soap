@@ -39,12 +39,12 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "theaterRoom"
+    "theaterRooms"
 })
 @XmlRootElement(name = "getTheaterRoomsResponse")
 public class GetTheaterRoomsResponse {
 
-    protected List<TheaterRoom> theaterRoom;
+    protected List<TheaterRoom> theaterRooms;
 
     /**
      * Gets the value of the theaterRoom property.
@@ -68,11 +68,11 @@ public class GetTheaterRoomsResponse {
      * 
      * 
      */
-    public List<TheaterRoom> getTheaterRoom() {
-        if (theaterRoom == null) {
-            theaterRoom = new ArrayList<TheaterRoom>();
+    public List<TheaterRoom> getTheaterRooms() {
+        if (theaterRooms == null) {
+            theaterRooms = new ArrayList<TheaterRoom>();
         }
-        return this.theaterRoom;
+        return this.theaterRooms;
     }
 
 }

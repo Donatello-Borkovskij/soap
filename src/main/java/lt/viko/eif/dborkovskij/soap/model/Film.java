@@ -11,14 +11,14 @@ public class Film {
     public Film() {
     }
 
-//    public Film(String name, int id, double score, TheaterRoom theaterRoom, String dateTime, String about) {
-//        this.name = name;
-//        this.id = id;
-//        this.score = score;
-//        this.theaterRoom = theaterRoom;
-//        this.dateTime = dateTime;
-//        this.about = about;
-//    }
+    public Film(String name, int id, double score, TheaterRoom theaterRoom, String dateTime, String about) {
+        this.name = name;
+        this.id = id;
+        this.score = score;
+        this.theaterRoom = theaterRoom;
+        this.dateTime = dateTime;
+        this.about = about;
+    }
 
     public String getName() {
         return name;

@@ -29,7 +29,7 @@
     <xs:element name="getTheaterRoomsResponse">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="theaterRoom" type="tns:theaterRoom" maxOccurs="unbounded" minOccurs="0"/>
+                <xs:element name="theaterRooms" type="tns:theaterRoom" maxOccurs="unbounded" minOccurs="0"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -37,7 +37,7 @@
     <xs:element name="insertTheaterRoomRequest">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="theaterRoom" type="tns:theaterRoom" />
+                <xs:element name="theaterRooms" type="tns:theaterRoom" />
             </xs:sequence>
         </xs:complexType>
     </xs:element>

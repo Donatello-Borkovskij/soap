@@ -4,7 +4,6 @@ import lt.viko.eif.dborkovskij.soap.model.Cinema;
 import lt.viko.eif.dborkovskij.soap.model.TheaterRoom;
 import org.springframework.stereotype.Component;
 
-import java.math.BigInteger;
 import java.util.List;
 
 @Component

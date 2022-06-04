@@ -28,9 +28,9 @@ public class TheaterRoomEndpoint {
 
     @PayloadRoot(namespace = URI, localPart = "getTheaterRoomsRequest")
     @ResponsePayload
-    public GetTheaterRoomsResponse getTheaterRoomsResponse(@RequestPayload GetTheaterRoomRequest request){
+    public GetTheaterRoomsResponse getTheaterRoomsResponse(@RequestPayload GetTheaterRoomsRequest request){
         GetTheaterRoomsResponse response = new GetTheaterRoomsResponse();
-        response.getTheaterRoom().addAll(filmService.theaterRoomRepository.getAll());
+        response.getTheaterRooms().addAll(filmService.theaterRoomRepository.getAll());
         return response;
     }
 
